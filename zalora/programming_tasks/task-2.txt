@@ -1,0 +1,26 @@
+a ) I will be tempted to define DataBase systems as Collection of Data. That system contains logs , cofiguration along with data. 
+
+
+	Schema as How is data is structured inside database , very crudely speaking It is blueprint of How data is constructed
+    In relational database systems schema defines the tables, fields, views etc
+
+
+	Table is collection of related data together in which It has row and columns for relational database systems
+
+
+	View is result of query. It will be returning query object. View is virtual table contains data on run time. I may be different tables also. 
+
+
+b )  Table comprises of row and columns comprising of row containing data or records. 
+	
+	View is virtual table that contains data on run time.  It is result of SQL Statement. 
+
+	This data can be from different tables as you can JOIN results of different SQL statements to give one result. 
+
+
+c ) 
+	Table Name is reporting.items 
+	Columns : Item_Code - Date - Visits - Orders
+
+	SQL Statement as follows 
+	1. SELECT SUM(Visits) AS TotalVisits FROM reporting.items WHERE Date = '2013-01-12';
