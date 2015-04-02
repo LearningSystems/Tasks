@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# PS: I couldn't complete code because of I couldn't get connect your server --- It is throwing errors are connection gone --- request timed out. 
+# If you can provide any other server which I can connect .. I can complete this task. Thank you. 
 set -e 
 
 function connect_to_ftp_server()
@@ -27,7 +29,7 @@ function ReadFileAndGetFile
 {
 	checkingfileexitst
 	checkingFilePermissions
-	
+
 }
 
 
