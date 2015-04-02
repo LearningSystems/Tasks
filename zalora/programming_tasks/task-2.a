@@ -1,0 +1,9 @@
+I am tempted to define Database as collection of data, log files and other configuration files.
+
+Schema as How is data is structured inside database , very crudely speaking It is blueprint of How data is constructed
+    In relational database systems schema defines the tables, fields, views etc
+
+Table is collection of related data together in which It has row and columns for relational database systems
+
+View is result of query. It will be returning query object.
+

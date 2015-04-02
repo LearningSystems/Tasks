@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+set -e 
+
+function connect_to_ftp_server()
+{
+	
+	# return status of ftp server connection
+	# if any error then it will stop program to go furhter. 
+}
+
+function get_configuaration()
+{
+	# read password and user name from config file
+}
+
+function checkingfileexitst()
+{
+
+}
+
+function checkingFilePermissions()
+{
+
+}
+
+function ReadFileAndGetFile
+{
+	checkingfileexitst
+	checkingFilePermissions
+	
+}
+
+
+function parserCommandLineInput()
+{
+
+}
+
+function main()
+{
+	get_configuaration
+	connect_to_ftp_server
+	readfile "$?"
+}
